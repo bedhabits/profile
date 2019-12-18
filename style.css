@@ -1,0 +1,121 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400&display=swap');
+
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+h1 {
+  color: #3c4245;
+  font-family: revert;
+}
+
+h2 {
+  color: #dfcdc3;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+  color: #5f6769;
+  font-family: 'Varela', sans;
+  font-size: 18px;
+  word-spacing: 2px;
+  margin: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #719192;
+}
+
+a:hover {
+  color: black;
+  word-spacing: 3px;
+  font-size: 16px;
+  transform: translateY(-400px);
+  transition: all 0.5s  ease;
+}
+
+#profile-pic-circle {
+  height: auto;
+  width: auto;
+  width: 120px;
+  margin-bottom: 21px;
+}
+
+.image-circle {
+  border-radius: 50%;
+  box-shadow: 2px 6px 6px rgba(100, 100, 100, 0.3);
+  border-style: outset;
+}
+
+.follow-me {
+  padding-left: initial;
+}
+
+.follow-me > li {
+  display: inline-block;
+  padding: 0px 12px;
+  list-style: none;
+  align-items: center;
+}
+
+.follow-me i {
+  color: rgba(150, 150, 150, 0.7);
+  font-size: 24px;
+}
+
+.follow-me i:hover {
+  color: black;
+}
+
+.container {
+  width: 677px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  align-items: center;
+  margin-top: 50px;
+}
+
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 1%;
+  margin: 18px 0;
+  box-shadow: 5px 10px rgba(240, 240, 240 , 0.5);
+  border-color: transparent;
+}
+
+.follow-card {
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 1%;
+  margin: 18px 0;
+  box-shadow: 5px 10px rgba(240, 240, 240 , 0.5);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
